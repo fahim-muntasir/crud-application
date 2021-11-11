@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#projectTitle {
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+#projectTitle .text-center a {
+  font-size: 28px;
+  text-decoration: none;
+}
+
+#user-table table td a > i {
+  border: 1px solid transparent;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+#user-table table td a > i:hover {
+  border: 1px solid rgb(197, 197, 197);
+}
+
+#user-table .add_user {
+  border: 1px solid rgb(197, 197, 197);
+  padding: 3px 8px;
+}
